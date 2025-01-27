@@ -1,2 +1,2 @@
-# demo_game1
-game1
+# K-garden Demo
+K-garden Demo
