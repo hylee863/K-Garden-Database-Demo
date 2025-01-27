@@ -9,7 +9,7 @@ var map = new ol.Map({
 });
 
 //initial view - epsg:3857 coordinates if not "Match project CRS"
-map.getView().fit([14134757.764456, 4519800.937196, 14135423.692809, 4520410.817371], map.getSize());
+map.getView().fit([14134426.242666, 4519710.491324, 14135651.939555, 4520447.243808], map.getSize());
 
 ////small screen definition
     var hasTouchScreen = map.getViewport().classList.contains('ol-touch');
@@ -888,8 +888,8 @@ document.getElementsByClassName('gcd-gl-btn')[0].className += ' fa fa-search';
 //layer search
 
 var searchLayer = new SearchLayer({
-    layer: lyr_kgarden_pt_1,
-    colName: 'eng_name',
+    layer: lyr_kgarden_pt_3,
+    colName: 'name',
     zoom: 10,
     collapsed: true,
     map: map
